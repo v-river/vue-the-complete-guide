@@ -1,0 +1,6 @@
+# Ignore node_modules in each project
+**/node_modules/
+**/dist/
+**/.vscode/
+# As a fallback if the script does not load
+**/vue.global.js
