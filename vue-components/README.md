@@ -1,0 +1,3 @@
+### Topics covered:
+
+- component declaration;

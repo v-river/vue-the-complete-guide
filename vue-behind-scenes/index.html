@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="styles.css" />
     <script src="vue.global.js" defer></script>
     <script src="app.js" defer></script>
+    <script src="non-reactive.js" defer></script>
+    <script src="reactive.js" defer></script>
   </head>
   <body>
     <header>
@@ -21,6 +23,13 @@
       <input type="text" @input="saveInput" />
       <button @click="setText">Set Text</button>
       <p>{{ message }}</p>
+      <h2>Refs</h2>
+      <input type="text" ref="userText" />
+      <button @click="setUserText">Set User Text</button>
+      <p>{{ userMessage }}</p>
+    </section>
+    <section id="app-two">
+      <!-- this variable is not available here: <p>{{ message }}</p> -->
     </section>
   </body>
 </html>
