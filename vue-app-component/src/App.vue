@@ -33,7 +33,14 @@ export default {
   </header>
   <section>
     <ul>
-      <FriendContact v-for="friend in friends" :friend :key="friend.id" />
+      <friend-contact
+        v-for="friend in friends"
+        :key="friend.id"
+        :name="friend.name"
+        :phone-number="friend.phone"
+        :email-address="friend.email"
+        :is-favorite="true"
+      />
     </ul>
   </section>
 </template>

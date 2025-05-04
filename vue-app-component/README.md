@@ -4,7 +4,9 @@
 
 - [component](/vue-components/);
 - component communication;
-- props;
+- props:
+    - unexpected mutation of prop error;
+    - validating props;
 
 ## Recommended IDE Setup
 
