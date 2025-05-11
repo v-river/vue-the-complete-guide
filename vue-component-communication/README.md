@@ -1,12 +1,7 @@
-# The Component Project
+### Topics covered:
 
-### Topics covered (folders):
-
-- [component](/vue-components/);
-- component communication;
-- props:
-    - unexpected mutation of prop error;
-    - validating props;
+- props/events pass through problem;
+- provide + inject;
 
 ## Recommended IDE Setup
 

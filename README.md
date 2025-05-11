@@ -7,6 +7,7 @@ Projects based on the Vue.js training course
 - options API;
 - composition API;
 - router (vue-router);
+- vite project scaffolding;
 
 #### Note
 
